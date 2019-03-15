@@ -1,8 +1,11 @@
 {
-  "name": "next-routes-with-locale",
+  "name": "@sklinet/next-routes-with-locale",
   "version": "1.4.5",
   "description": "Easy to use locale-based dynamic routes for Next.js",
-  "repository": "SKLINET/next-routes-with-locale",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SKLINET/next-routes-with-locale.git"
+  },
   "main": "dist",
   "files": [
     "dist"
@@ -62,5 +65,12 @@
     "router",
     "routes",
     "routing"
-  ]
+  ],
+  "bugs": {
+    "url": "https://github.com/SKLINET/next-routes-with-locale/issues"
+  },
+  "homepage": "https://github.com/SKLINET/next-routes-with-locale#readme",
+  "directories": {
+    "test": "test"
+  }
 }
