@@ -1,6 +1,13 @@
 {
-  "presets": [
-    "env",
-    "next/babel"
+  "presets":[
+    ["next/babel", {
+      "preset-env": {
+        "targets": {
+          "node": "8.11.2",
+          "browsers": "ie >= 11"
+        },
+        "modules": "commonjs"
+      }
+    }]
   ]
 }

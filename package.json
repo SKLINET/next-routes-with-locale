@@ -1,8 +1,8 @@
 {
   "name": "next-routes-with-locale",
-  "version": "1.4.4",
+  "version": "1.4.5",
   "description": "Easy to use locale-based dynamic routes for Next.js",
-  "repository": "vonschau/next-routes-with-locale",
+  "repository": "SKLINET/next-routes-with-locale",
   "main": "dist",
   "files": [
     "dist"
@@ -27,26 +27,30 @@
     ]
   },
   "dependencies": {
-    "path-to-regexp": ">1.7.0"
+    "path-to-regexp": ">1.7.0",
+    "babel-core": "^7.0.0-bridge.0"
   },
   "peerDependencies": {
     "next": ">=4.1.4",
     "react": ">=16.0.0"
   },
   "devDependencies": {
-    "babel-cli": "^6.24.1",
-    "babel-eslint": "^7.2.3",
-    "babel-jest": "^20.0.3",
-    "babel-preset-env": "^1.5.2",
-    "concurrently": "^3.5.0",
-    "coveralls": "^2.13.1",
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.3.4",
+    "@babel/node": "^7.2.2",
+    "@babel/preset-env": "^7.3.4",
+    "babel-eslint": "^10.0.1",
+    "babel-jest": "^24.5.0",
+    "babel-preset-env": "^1.7.0",
+    "concurrently": "^4.1.0",
+    "coveralls": "^3.0.3",
     "del-cli": "^1.1.0",
-    "jest": "^20.0.4",
-    "next": "^4.1.4",
-    "react": "^16.0.0",
-    "react-dom": "^16.0.0",
-    "react-test-renderer": "^16.0.0",
-    "standard": "^10.0.2"
+    "jest": "^24.5.0",
+    "next": "^8.0.3",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4",
+    "react-test-renderer": "^16.8.4",
+    "standard": "^12.0.1"
   },
   "author": "fridays",
   "license": "MIT",
